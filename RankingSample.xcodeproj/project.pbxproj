@@ -13,6 +13,7 @@
 		39729F901F5444FE00B1E60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39729F8E1F5444FE00B1E60E /* Main.storyboard */; };
 		39729F921F5444FE00B1E60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39729F911F5444FE00B1E60E /* Assets.xcassets */; };
 		39729F951F5444FE00B1E60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39729F931F5444FE00B1E60E /* LaunchScreen.storyboard */; };
+		39729F9D1F5453A700B1E60E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39729F9C1F5453A700B1E60E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		39729F911F5444FE00B1E60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39729F941F5444FE00B1E60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39729F961F5444FE00B1E60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39729F9C1F5453A700B1E60E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78F29C507298F980E65E743B /* Pods-RankingSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RankingSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RankingSample/Pods-RankingSample.debug.xcconfig"; sourceTree = "<group>"; };
 		B95C7921B66EE36EBA5E4802 /* Pods-RankingSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RankingSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RankingSample/Pods-RankingSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 				39729F8E1F5444FE00B1E60E /* Main.storyboard */,
 				39729F911F5444FE00B1E60E /* Assets.xcassets */,
 				39729F931F5444FE00B1E60E /* LaunchScreen.storyboard */,
+				39729F9C1F5453A700B1E60E /* GoogleService-Info.plist */,
 				39729F961F5444FE00B1E60E /* Info.plist */,
 			);
 			path = RankingSample;
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39729F951F5444FE00B1E60E /* LaunchScreen.storyboard in Resources */,
+				39729F9D1F5453A700B1E60E /* GoogleService-Info.plist in Resources */,
 				39729F921F5444FE00B1E60E /* Assets.xcassets in Resources */,
 				39729F901F5444FE00B1E60E /* Main.storyboard in Resources */,
 			);
@@ -389,6 +393,7 @@
 				39729F9B1F5444FE00B1E60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
